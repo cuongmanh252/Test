@@ -33,6 +33,11 @@ cp .env.example .env
 PORT=7000
 ```
 
+### 3.Cài đặt môi trường:
+- Cài đặt **XAMPP** để sử dụng MySQL
+- Khởi động **Apache** và **MySQL** trong XAMPP Control Panel
+- Tạo database trong MySQL (ví dụ: `music_web`)
+
 ### 3. Khởi tạo cơ sở dữ liệu với Sequelize
 - Dự án sử dụng **Sequelize ORM** để quản lý và thao tác với cơ sở dữ liệu MySQL. Cấu trúc thư mục Sequelize được tùy chỉnh theo project (`src/models`, `src/migrations`, `src/config`).
 > Trong trường hợp gặp lỗi khi chạy Sequelize CLI, vui lòng tham khảo tài liệu chính thức của Sequelize để biết thêm chi tiết.
@@ -77,3 +82,4 @@ npm start
 - Sinh viên thực hiện: Bùi Mạnh Cường
 - Lớp/MSV: DCCTCT66_07E - 2121050009
 - Giảng viên hướng dẫn: Lê Hồng Anh
+- Github: https://github.com/ManhCuong365/DoAn_Website_NgheNhac_Tructuyen.git
