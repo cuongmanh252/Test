@@ -35,7 +35,7 @@ PORT=7000
 
 ### 3. Khởi tạo cơ sở dữ liệu với Sequelize
 - Dự án sử dụng **Sequelize ORM** để quản lý và thao tác với cơ sở dữ liệu MySQL. Cấu trúc thư mục Sequelize được tùy chỉnh theo project (`src/models`, `src/migrations`, `src/config`).
-- Trong trường hợp gặp lỗi khi chạy Sequelize CLI, vui lòng tham khảo tài liệu chính thức của Sequelize để biết thêm chi tiết.
+> Trong trường hợp gặp lỗi khi chạy Sequelize CLI, vui lòng tham khảo tài liệu chính thức của Sequelize để biết thêm chi tiết.
 - Chạy migrations (tạo bảng trong database)
 ```bash
 npx sequelize-cli db:migrate --migrations-path ./src/migrations --config ./src/config/config.json
@@ -65,12 +65,12 @@ npx sequelize-cli db:migrate:undo:all --migrations-path ./src/migrations --confi
 npx sequelize-cli db:migrate:undo --migrations-path ./src/migrations --config ./src/config/config.json
 ```
 
-### 3.Khởi động Server:
+### 4.Khởi động Server:
 ```bash
 npm start
 ```
 
-### 4.Truy cập ứng dụng:
+### 5.Truy cập ứng dụng:
 - Mở trình duyệt và truy cập: http://localhost:3000/ (hoặc cổng mà bạn đã thiết lập)
 
 ## Tác giả
