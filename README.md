@@ -28,7 +28,7 @@ npm install
 ```bash
 cp .env.example .env
 ```
-- Ví dụ
+> Ví dụ
 ```bash
 PORT=7000
 ```
@@ -48,7 +48,7 @@ npx sequelize-cli model:generate \
 --models-path ./src/models \
 --migrations-path ./src/migrations
 ```
-- Ví dụ
+> Ví dụ
 ```bash
 npx sequelize-cli model:generate \
 --name Albums \
